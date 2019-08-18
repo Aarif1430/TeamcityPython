@@ -9,7 +9,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(sum(1,2), 0, "Should be 3")
 
     def test_minus(self):
-        self.assertEqual(minus(3,2), 1, "Should be 1")
+        self.assertEqual(minus(3,2), 12, "Should be 1")
 
     def test_multi(self):
         self.assertEqual(multi(2,3), 6, "Should be 6")
