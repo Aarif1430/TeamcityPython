@@ -6,7 +6,7 @@ from teamcity.unittestpy import TeamcityTestRunner
 class TestSum(unittest.TestCase):
 
     def test_sum(self):
-        self.assertEqual(sum(1,2), 3, "Should be 3")
+        self.assertEqual(sum(1,2), 0, "Should be 3")
 
     def test_minus(self):
         self.assertEqual(minus(3,2), 1, "Should be 1")
